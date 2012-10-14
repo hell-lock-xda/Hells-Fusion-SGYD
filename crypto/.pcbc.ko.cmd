@@ -1,0 +1,1 @@
+cmd_crypto/pcbc.ko := /home/adminuser/sgy1/arm-2009q3/bin/arm-none-eabi-ld -EL -r  -T /home/adminuser/sgy1/kernel/common/scripts/module-common.lds --build-id -o crypto/pcbc.ko crypto/pcbc.o crypto/pcbc.mod.o

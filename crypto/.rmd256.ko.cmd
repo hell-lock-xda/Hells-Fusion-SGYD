@@ -1,0 +1,1 @@
+cmd_crypto/rmd256.ko := /home/adminuser/sgy1/arm-2009q3/bin/arm-none-eabi-ld -EL -r  -T /home/adminuser/sgy1/kernel/common/scripts/module-common.lds --build-id -o crypto/rmd256.ko crypto/rmd256.o crypto/rmd256.mod.o
